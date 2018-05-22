@@ -43,6 +43,7 @@ def play(board)
     counter += 1
     until counter > turns 
     turn(board)
+    
   end
 end
     
