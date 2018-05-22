@@ -38,6 +38,7 @@ end
 # Define your play method below
 def play(board)
   turns  = 0 
+  loop do
     turns += 1
     until turns == 9 
     turn(board)
